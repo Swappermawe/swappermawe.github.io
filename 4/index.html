@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not yet.</title>
+    <link rel="icon" type="image/x-icon" href="src/logo.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .clock-container {
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .time {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 5rem;
+            font-weight: 300;
+            letter-spacing: -0.05em;
+            margin-bottom: 0.5rem;
+            color: #000000;
+            
+        }
+        
+        .date {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #000000;
+            letter-spacing: 0.05em;
+        }
+        
+        @media (max-width: 768px) {
+            .time {
+                font-size: 3.5rem;
+            }
+            
+            .date {
+                font-size: 1rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .time {
+                font-size: 2.5rem;
+            }
+            
+            .date {
+                font-size: 0.9rem;
+            }
+        }
+        body {
+            background: #ffffff;
+background: linear-gradient(133deg, #c2c2c2 30%, #2b2b2b 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="clock-container">
+        <img src="src/logo.png" width="250" height="250" alt="Logo" draggable="false">
+        <div class="time" id="time" style="  @keyframes blinker {
+    50% { opacity: 0; }
+  }
+  animation: blinker 1s linear infinite;" unselectable="on" draggable="false">It's not the time.</div>
+        <div class="date" id="date">Come back at Wednesday, April 1st, 2026.</div>
+        <iframe src="https://free.timeanddate.com/countdown/ia9lddvp/n2220/cf12/cm0/cu4/ct1/cs1/ca0/cr2/ss0/cacfff/cpc000/pct/tcfff/fn3/fs100/szw320/szh135/tatFOUR/tacfff/tptFOUR%20will%20start%20soon.../tpc000/matStarts%20in%3A/macfff/mptPlease%20wait./mpc000/iso2026-04-01T00:00:00/pa10" allowtransparency="true" frameborder="0" width="125" height="75"></iframe>
+
+    </div>
+</body>
+</html>
