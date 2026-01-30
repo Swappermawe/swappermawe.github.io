@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Time Is It?</title>
+    <link rel="icon" type="image/x-icon" href="src/logo.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .clock-container {
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .time {
+            font-family: monospace;
+            font-size: 5rem;
+            font-weight: 300;
+            letter-spacing: -0.05em;
+            margin-bottom: 0.5rem;
+            color: #ffffff;
+            
+        }
+        
+        .date {
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #7f8c8d;
+            letter-spacing: 0.05em;
+        }
+        
+        @media (max-width: 768px) {
+            .time {
+                font-size: 3.5rem;
+            }
+            
+            .date {
+                font-size: 1rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .time {
+                font-size: 2.5rem;
+            }
+            
+            .date {
+                font-size: 0.9rem;
+            }
+        }
+        body {
+            background: #FFD700;
+background: linear-gradient(133deg, rgba(255, 215, 0, 1) 50%, rgba(255, 98, 0, 1) 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="clock-container">
+        <div class="time" id="time" style="  @keyframes blinker {
+    50% { opacity: 0; }
+  }
+  animation: blinker 1s linear infinite;" unselectable="on">00:00:00</div>
+        <div class="date" id="date" style="visibility: hidden;">Monday, January 1, 2024</div>
+    </div>
+
+    <script>
+        function updateClock() {
+            const now = new Date();
+            
+            // Format time
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            
+            // Format date
+            const options = { 
+                weekday: 'long', 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric' 
+            };
+            const dateString = now.toLocaleDateString('en-US', options);
+            
+            // Update DOM
+            document.getElementById('time').textContent = `${hours}:${minutes}:${seconds}`;
+            document.getElementById('date').textContent = dateString;
+        }
+        
+        // Update clock immediately and then every second
+        updateClock();
+        setInterval(updateClock, 1000);
+    </script>
+</body>
+</html>
