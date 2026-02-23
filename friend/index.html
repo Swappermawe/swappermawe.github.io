@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Friend</title>
+    </head>
+    <body>
+        <style>
+            body {
+                background-color: black;
+            }
+            #Button {
+                height:100%;
+                width:100%;
+            }
+            #Friend {
+                height:100%;
+                width:100%;
+            }
+        </style>
+        <div id="Button"><img id="Friend" src="friend.png" alt="Friend" style="opacity: 0;" draggable="false"></div>
+        <script>
+            var audio = new Audio("friend.mp3");
+            var audio2 = new Audio("inside.mp3");
+            var count = 0
+            function delay(ms) {
+                return new Promise(resolve => setTimeout(resolve, ms));
+            }
+            const Friend = document.getElementById("Friend")
+            const keyframes = [
+                {opacity: 0},
+                {opacity: 1}
+            ];
+            const options = {
+                duration: 60000,
+                easing: 'ease-in-out',
+                iterations: 1,
+                fill: 'forwards'
+            };
+            function handleClick() {
+                if (count <= 40) {
+                    audio.play();
+                    count = count + 1
+                    console.log(count)
+                }
+                else {
+                    if (count != 56) {
+                        audio2.play();
+                        const animation = Friend.animate(keyframes, options);
+                        count = 56
+                        setTimeout(() => {
+                            window.location.href = "https://swappermawe.github.io/cube"; 
+                        }, 26177)
+                    }
+                    else {
+                        count = 56
+                    }
+                }
+                setTimeout(() => {console.log("MY friend.")}, 500)
+            }  
+            setTimeout(() => {document.addEventListener("click", handleClick);}, 500)
+            delay(1000)
+        </script>
+    </body>
+</html>
