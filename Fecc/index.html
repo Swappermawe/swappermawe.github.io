@@ -40,6 +40,23 @@ if (location.protocol.substr(0, 4) === "file")
 	<script src="scripts/offlineclient.js" type="module"></script>
 	<script src="scripts/main.js" type="module"></script>
 	<script src="scripts/register-sw.js" type="module"></script>
-
+	<script>
+		// Add this to your main JavaScript
+		document.addEventListener('DOMContentLoaded', function() {
+    	// Remove loading screen elements
+    	var loaders = document.querySelectorAll('.c3loading, .c3-loader, .loading-screen');
+    	loaders.forEach(function(el) {
+        	el.style.display = 'none';
+        	el.style.opacity = '0';
+    	});
+    
+    	// Make canvas visible
+    	var canvas = document.querySelector('canvas');
+    	if (canvas) {
+        	canvas.style.display = 'block';
+        	canvas.style.opacity = '1';
+    	}
+		});
+	</script>
 </body> 
 </html>
