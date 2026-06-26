@@ -122,3 +122,32 @@ html[ioswebview] .c3htmlwrap > * {
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
 }
+
+/* Hide Construct's default loading elements */
+#notSupportedWrap,
+.c3loading,
+.c3loader,
+#c3load,
+.loading-screen,
+.c3-loading-screen,
+.c3-progress-bar-container,
+.c3-progress-bar {
+    display: none !important;
+}
+
+/* Remove loading progress text */
+.c3-loading-text,
+.c3-percent {
+    display: none !important;
+}
+
+/* Make canvas visible immediately */
+canvas.c3canvas {
+    display: block !important;
+    opacity: 1 !important;
+}
+
+/* Remove any overlay backgrounds */
+body {
+    background: transparent !important;
+}
