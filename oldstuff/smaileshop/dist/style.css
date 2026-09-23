@@ -1,0 +1,151 @@
+html {
+  background: linear-gradient(161deg,rgba(255, 174, 0, 1) 3%, rgba(237, 221, 83, 1) 100%);
+  padding-top: 10px;
+}
+
+main {
+  padding: 10px;
+  background-color: rgba(192, 192, 192, 0.7);
+}
+
+.post {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.post img {
+  margin: 20px;
+}
+
+.footer-columns {
+  display: flex;
+}
+
+.footer-column {
+  flex: 50%;
+  margin: 20px;
+}
+
+.new {
+  color: rgb(255, 0, 0);
+}
+
+.new:hover span{
+  display: none;
+}
+
+.new:hover::before {
+  content: "[YOU] read it right";
+}
+
+.biggersize:hover span{
+  display: none;
+}
+
+.biggersize:hover::before {
+  content: "glorbo";
+}
+
+#buyTroll:hover span {
+  display: none;
+}
+
+#buyTroll:hover::before {
+  content: "be careful";
+}
+
+#ilovesprite{
+position: relative;
+display: block;
+width: 100%;
+height: auto;
+z-index: 10;
+}
+
+#ilovesprite ul{
+position: relative;
+display: block;
+margin: 0px;
+padding: 0px;
+width: 100%;
+height: auto;
+list-style: none;
+}
+
+#ilovesprite > ul::after{
+display: block;
+width: 100%;
+height: 0px;
+clear: both;
+content: " ";
+}
+
+#ilovesprite ul li{
+position: relative;
+display: block;
+ float: left;
+width: auto;
+height: auto;
+}
+
+#ilovesprite ul li a{
+display: block;
+padding: 9px 25px 0px 25px;
+font-size: 14px;
+line-height: 1.3em;
+text-decoration: none;
+font-weight: bold;
+text-transform: uppercase;
+height: 36px;
+box-sizing: border-box;
+color: white;
+}
+
+#ilovesprite ul li ul{
+position: absolute;
+top: 36px;
+left: 0px;
+display: none;
+width: 200px;
+background: #38b6ff;
+}
+#ilovesprite ul li:hover ul{
+display: block;
+}
+#ilovesprite ul li ul li{
+float: none;
+width: 100%;
+}
+
+#ilovesprite ul li ul li a{
+display: block;
+text-transform: none;
+height: auto;
+padding: 7px 25px;
+width: 100%;
+box-sizing: border-box;
+border-top: 1px solid #ffffff;
+color: white;
+}
+
+#ilovesprite ul li ul li:first-child a{
+border-top: 0px;
+}
+
+#ilovesprite ul li{
+position: relative;
+display: block;
+ float: left;
+width: auto;
+height: auto;
+}
+
+.transparent {
+  color: rgba(255, 0, 0, 0.6);
+}
+.soleed {
+  color: rgba(255, 0, 0, 1);
+}

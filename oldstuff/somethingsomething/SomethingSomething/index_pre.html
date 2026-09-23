@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IDIOT!</title>
+    <link rel="icon" type="image/x-icon" href="Idiot.png">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background-color: white;
+        }
+
+        .centered-div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            text-align: center;
+            padding: 20px;
+            z-index: 100;
+        }
+        #IMG {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="centered-div">
+        <p id="IMG" draggable="false">IDIOT!</p>
+    </div>
+
+    <script>
+        let isBlack = false;
+        
+        function toggleBackground() {
+            isBlack = !isBlack;
+            document.querySelector("link[rel*='icon']").href = isBlack ? 'Idiot Invert.png' : 'Idiot.png';
+            document.body.style.backgroundColor = isBlack ? 'black' : 'white';
+            document.getElementById("IMG").color = isBlack ? 'white' : 'black';
+        }
+        
+        // Start flashing every 500ms
+        setInterval(toggleBackground, 500);
+        setTimeout(() => {
+            window.location.href = "index_.html";
+        }, 5000); // 2 minutes
+    </script>
+</body>
+</html>

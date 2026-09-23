@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VGhlIGluY29tZSB5b3Ugd291bGQgZXhwZWN0Lg==</title>
+    <style>
+        #delayedElement {
+            visibility: hidden;
+        }
+        #AnotherdelayedElement {
+            visibility: hidden;
+        }
+        #VeryAnotherdelayedElement {
+            visibility: hidden;
+        }
+        #AVeryAnotherdelayedElement {
+            visibility: hidden;
+        }
+        body {
+            background-color: rgb(0, 0, 0);
+        }
+        p {
+            font-family: 'Courier New', Courier, monospace;
+            color: lime;
+        }
+        #H {
+            font-family: 'Courier New', Courier, monospace;
+            color: rgb(255, 0, 0);
+        }
+        #TrulyVeryAnotherdelayedElement {
+            visibility: hidden;
+        }
+        #Copycat {
+            visibility: hidden;
+        }
+        #i {
+            font-family: 'Courier New', Courier, monospace;
+            color: rgb(255, 255, 255); 
+        }
+    </style>
+</head>
+<body>
+    <div id="delayedElement">
+        <p>#PROGRAM_OUTPUT > Are you here for secrets?</p>
+    </div>
+    <div id="AnotherdelayedElement">
+        <p>#PROGRAM_OUTPUT > Why?</p>
+    </div>
+    <div id="VeryAnotherdelayedElement">
+        <p>#PROGRAM_OUTPUT > There are no secrets.</p>
+    </div>
+    <div id="TrulyVeryAnotherdelayedElement">
+        <p id="H">ERROR: BUFFER OVERFLOW</p>
+    </div>
+    <div id="Copycat">
+        <p id="i">IDIOT! IDIOT! IDIOT! IDIOT! IDIOT! IDIOT! IDIOT! IDIOT! HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA</p>
+        <p> </p>
+    </div>
+
+
+    <script>
+        // Wait 2 minutes then show the element
+        setTimeout(() => {
+            const element = document.getElementById("delayedElement");
+            if (element) {
+                element.style.visibility = "visible";
+            }
+        }, 6000); // 2 minutes
+        setTimeout(() => {
+            const element = document.getElementById("AnotherdelayedElement");
+            if (element) {
+                element.style.visibility = "visible";
+            }
+        }, 12000); // 2 minutes
+        setTimeout(() => {
+            const element = document.getElementById("VeryAnotherdelayedElement");
+            if (element) {
+                element.style.visibility = "visible";
+            }
+        }, 18000); // 2 minutes
+        setTimeout(() => {
+            const element = document.getElementById("TrulyVeryAnotherdelayedElement");
+            if (element) {
+                element.style.visibility = "visible";
+            }
+        }, 18500); // 2 minutes
+        setTimeout(() => {
+            const element = document.getElementById("Copycat");
+            if (element) {
+                element.style.visibility = "visible";
+            }
+        }, 19500); // 2 minutes
+        setTimeout(() => {
+                function optimizedInfiniteClone() {
+    let cloneCount = 0;
+    const maxClones = 100000; // Safety limit
+    
+    const intervalId = setInterval(() => {
+        if (cloneCount >= maxClones) {
+            clearInterval(intervalId);
+            console.log("Reached maximum clone limit");
+            return;
+        }
+        
+        const original = document.getElementById("Copycat");
+        if (!original) {
+            clearInterval(intervalId);
+            console.log("Original element not found");
+            return;
+        }
+        
+        const clone = original.cloneNode(true);
+        clone.id = "";
+        clone.setAttribute('data-clone-id', cloneCount);
+        document.body.appendChild(clone);
+        cloneCount++;
+        
+        console.log(`Clone ${cloneCount} created`);
+    }, 1);
+    
+        return intervalId; // Return ID so you can stop it later
+    }
+
+// Start and get the interval ID to stop later if needed
+    const cloningProcess = optimizedInfiniteClone();
+        }, 21500); // 2 minutes
+    setInterval(() => {
+        window.scrollTo(0, Math.max(
+        document.body.scrollHeight,
+        document.documentElement.scrollHeight
+        ));
+    }, 30);
+    setTimeout(() => {
+        window.location.href = "index_pre.html";
+    }, 30000); // 2 minutes
+    </script>
+</body>
+</html>
