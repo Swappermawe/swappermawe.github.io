@@ -1,0 +1,86 @@
+{
+    "useless_info": "Localization for menu", 
+
+
+    "menu.setts": "Dummy String",
+    "menu.start": "Dummy String",
+    "menu.load": "Dummy String",
+    "menu.lsel": "Dummy String",
+    "menu.exit": "Dummy String",
+
+    "menu.setts.noise": "Dummy String",
+    "menu.setts.autosave": "Dummy String",
+    "menu.setts.snd": "Dummy String",
+    "menu.setts.loadvid": "Dummy String",
+    "menu.setts.updlog": "Dummy String",
+    "menu.setts.mensel": "Dummy String",
+    "menu.setts.lang": "Dummy String",
+
+    "menu.setts.noise.hint": "Dummy String",
+    "menu.setts.noise.prev": "Dummy String",
+    "menu.setts.noise.nmenu.on": "Dummy String",
+    "menu.setts.noise.nmenu.off": "Dummy String",
+
+    "menu.setts.mensel.head": "Dummy String",
+    "menu.setts.mensel.new": "Dummy String",
+    "menu.setts.mensel.old": "Dummy String",
+    "menu.setts.mensel.oldest": "Dummy String",
+
+
+    "useless_info3": "Localization for level names",
+    
+
+    "lev.a1": "Dummy String",
+    "lev.a2": "Dummy String",
+    "lev.a3": "Dummy String",
+    "lev.a4": "Dummy String",
+    "lev.a5": "Dummy String",
+    "lev.a6": "Dummy String",
+    "lev.a7": "Dummy String",
+    "lev.a8": "Dummy String",
+    "lev.a9": "Dummy String",
+    "lev.a10": "Dummy String",
+    "lev.a11": "Dummy String",
+    "lev.a12": "Dummy String",
+
+    "lev.b1": "Dummy String",
+    "lev.b2": "Dummy String",
+    "lev.b3": "Dummy String",
+    "lev.b4": "Dummy String",
+    "lev.b5": "Dummy String",
+    "lev.b6": "Dummy String",
+    "lev.b7": "Dummy String",
+    "lev.b8": "Dummy String",
+    "lev.b9": "Dummy String",
+    "lev.b10": "Dummy String",
+    "lev.b11": "Dummy String",
+    "lev.b12": "Dummy String",
+
+    "lev.c1": "Dummy String",
+    "lev.c2": "Dummy String",
+    "lev.c3": "Dummy String",
+    "lev.c4": "Dummy String",
+    "lev.c5": "Dummy String",
+    "lev.c6": "Dummy String",
+    "lev.c7": "Dummy String",
+    "lev.c8": "Dummy String",
+
+
+    "useless_info4": "Localization for misc stuff",
+
+
+    "endlev.txt": "Dummy String",
+
+    "lev.b6.fake": "Dummy String",
+    "lev.c0": "Dummy String",
+
+    "pause.head": "Dummy String",
+    "pause.res": "Dummy String",
+    "pause.cont": "Dummy String",
+    "pause.ex": "Dummy String",
+
+    "ox.met": "Dummy String",
+    "ox.bar.anim.full": "Dummy String",
+    "menu.oldest.hint": "Dummy String"
+
+}

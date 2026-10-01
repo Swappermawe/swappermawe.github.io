@@ -1,0 +1,86 @@
+{
+    "useless_info": "Localization for menu", 
+
+
+    "menu.setts": "SETTINGS",
+    "menu.start": "START",
+    "menu.load": "LOAD",
+    "menu.lsel": "LEV SEL",
+    "menu.exit": "EXIT",
+
+    "menu.setts.noise": "NOISE",
+    "menu.setts.autosave": "AUTOSAVE",
+    "menu.setts.snd": "SOUND",
+    "menu.setts.loadvid": "LOADING VIDEO",
+    "menu.setts.updlog": "UPDATE LOG",
+    "menu.setts.mensel": "MENU SELECT",
+    "menu.setts.lang": "LANGUAGE",
+
+    "menu.setts.noise.hint": "HOLD SHIFT TO ADD +5\nR - RESET NOISE",
+    "menu.setts.noise.prev": "PREVIEW",
+    "menu.setts.noise.nmenu.on": "NOISE IN MENU: ON",
+    "menu.setts.noise.nmenu.off": "NOISE IN MENU: OFF",
+
+    "menu.setts.mensel.head": "MENU SELECT",
+    "menu.setts.mensel.new": "NEW",
+    "menu.setts.mensel.old": "OLD",
+    "menu.setts.mensel.oldest": "OLDEST",
+
+
+    "useless_info3": "Localization for level names",
+    
+
+    "lev.a1": "A01 - The Beginning",
+    "lev.a2": "A02 - Second Steps",
+    "lev.a3": "A03 - Outside The Box",
+    "lev.a4": "A04 - Outside The Walls",
+    "lev.a5": "A05 - Keys",
+    "lev.a6": "A06 - Key-side The Box",
+    "lev.a7": "A07 - Key-side The Box: Electric Boogaloo",
+    "lev.a8": "A08 - Double Trouble",
+    "lev.a9": "A09 - Keysle",
+    "lev.a10": "A10: Knock-Knock",
+    "lev.a11": "A11: Closed",
+    "lev.a12": "A12: Twoside",
+
+    "lev.b1": "B01 - Darker",
+    "lev.b2": "B02 - Three Keys - Three Doors",
+    "lev.b3": "B03 - Enclosed Space",
+    "lev.b4": "B04 - The Unknown Portal",
+    "lev.b5": "B05 - Hoppy",
+    "lev.b6": "B06 - Punctured",
+    "lev.b7": "B07 - Lockdown",
+    "lev.b8": "B08 - Two-Factor Authentication",
+    "lev.b9": "B09 - Spikey",
+    "lev.b10": "B10 - Deadly Spikey",
+    "lev.b11": "B11 - Take a Breather",
+    "lev.b12": "B12 - Grass",
+
+    "lev.c1": "C01 - Outdoors",
+    "lev.c2": "C02 - Don't Fall",
+    "lev.c3": "C03 - The Park",
+    "lev.c4": "C04 - Solid Ground",
+    "lev.c5": "C05 - A Different Lock",
+    "lev.c6": "C06 - And A Different Key",
+    "lev.c7": "C07 - Islands",
+    "lev.c8": "C08 - A Soft Staircase",
+
+
+    "useless_info4": "Localization for misc stuff",
+
+
+    "endlev.txt": "THE END",
+
+    "lev.b6.fake": "B06 - Punctured",
+    "lev.c0": "The Tree",
+
+    "pause.head": "PAUSE",
+    "pause.res": "Restart (R)",
+    "pause.cont": "Continue (U)",
+    "pause.ex": "Exit to Menu (ESC)",
+
+    "ox.met": "Oxygene",
+    "ox.bar.anim.full": "max_eng",
+    "menu.oldest.hint": "wait for a bit before starting\n(look at the stickman)"
+
+}
