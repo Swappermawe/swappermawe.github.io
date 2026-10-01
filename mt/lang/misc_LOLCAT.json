@@ -1,0 +1,86 @@
+{
+    "useless_info": "Localization for menu", 
+
+
+    "menu.setts": "de seting",
+    "menu.start": "starto",
+    "menu.load": "laod",
+    "menu.lsel": "levol selekt",
+    "menu.exit": "DO NOT",
+
+    "menu.setts.noise": "nose",
+    "menu.setts.autosave": "atosev",
+    "menu.setts.snd": "SOUND",
+    "menu.setts.loadvid": "le vidao laod",
+    "menu.setts.updlog": "log updator",
+    "menu.setts.mensel": "selekt menu",
+    "menu.setts.lang": "lagnuage",
+
+    "menu.setts.noise.hint": "shift 2 5\nr(eset)",
+    "menu.setts.noise.prev": "perviw",
+    "menu.setts.noise.nmenu.on": "u got noise",
+    "menu.setts.noise.nmenu.off": "u not got noise",
+
+    "menu.setts.mensel.head": "menos sekelt",
+    "menu.setts.mensel.new": "dis",
+    "menu.setts.mensel.old": "dat",
+    "menu.setts.mensel.oldest": "trampolino",
+
+
+    "useless_info3": "Localization for level names",
+    
+
+    "lev.a1": "beginz",
+    "lev.a2": "aou2",
+    "lev.a3": "box",
+    "lev.a4": "wall",
+    "lev.a5": "deez nutz",
+    "lev.a6": "KEYZ",
+    "lev.a7": "tee eff 2",
+    "lev.a8": "ding-a-ling",
+    "lev.a9": "s",
+    "lev.a10": "kok",
+    "lev.a11": "U LEAVE",
+    "lev.a12": "drainage",
+
+    "lev.b1": "dakrer",
+    "lev.b2": "3k3d",
+    "lev.b3": "CLAUSTROPHOBIA",
+    "lev.b4": "bet",
+    "lev.b5": "500 spikez",
+    "lev.b6": "wut",
+    "lev.b7": "perry",
+    "lev.b8": "de platapus",
+    "lev.b9": "wai ru readign dis",
+    "lev.b10": "ok srously why",
+    "lev.b11": "uuught",
+    "lev.b12": "DAS AUSSERE iz calling u",
+
+    "lev.c1": "wow",
+    "lev.c2": "john c02 the oxygene",
+    "lev.c3": "bech",
+    "lev.c4": "DONUT",
+    "lev.c5": "sheesh",
+    "lev.c6": "sheeeP",
+    "lev.c7": "batol for island island",
+    "lev.c8": "bleh",
+
+
+    "useless_info4": "Localization for misc stuff",
+
+
+    "endlev.txt": "haha",
+
+    "lev.b6.fake": "hellow dere mate",
+    "lev.c0": "eg",
+
+    "pause.head": "piss",
+    "pause.res": "rest in piss (R)",
+    "pause.cont": "ur an idiot (U)",
+    "pause.ex": "escape (ESC)",
+
+    "ox.met": "grehefbehber",
+    "ox.bar.anim.full": "max_lol",
+    "menu.oldest.hint": "bebi im a gem\nso match de vibe"
+
+}

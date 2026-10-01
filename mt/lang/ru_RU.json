@@ -1,0 +1,86 @@
+{
+    "useless_info": "Localization for menu", 
+
+
+    "menu.setts": "НАСТРОЙКИ",
+    "menu.start": "СТАРТ",
+    "menu.load": "ЗАГРУЗИТЬ",
+    "menu.lsel": "ВЫБОР",
+    "menu.exit": "ВЫХОД",
+
+    "menu.setts.noise": "ШУМ",
+    "menu.setts.autosave": "АВТОСОХР.",
+    "menu.setts.snd": "ЗВУК",
+    "menu.setts.loadvid": "ВИДЕО ЗАГРУЗКИ",
+    "menu.setts.updlog": "ЛОГ ОБНОВЛЕНИЙ",
+    "menu.setts.mensel": "ВЫБРАТЬ МЕНЮ",
+    "menu.setts.lang": "ЯЗЫК",
+
+    "menu.setts.noise.hint": "ЗАЖМИТЕ SHIFT ДЛЯ ПРИБАВЛЕНИЯ +5\nR - ДЛЯ РЕСЕТА ШУМА",
+    "menu.setts.noise.prev": "ПРЕДПРОСМОТР",
+    "menu.setts.noise.nmenu.on": "ШУМ В МЕНЮ: ВКЛ",
+    "menu.setts.noise.nmenu.off": "ШУМ В МЕНЮ: ВЫКЛ",
+
+    "menu.setts.mensel.head": "ВЫБРАТЬ МЕНЮ",
+    "menu.setts.mensel.new": "НОВЫЙ",
+    "menu.setts.mensel.old": "СТАРЫЙ",
+    "menu.setts.mensel.oldest": "СТАРЕЕ",
+
+
+    "useless_info3": "Localization for level names",
+    
+
+    "lev.a1": "A01 - Начало",
+    "lev.a2": "A02 - Вторые Шаги",
+    "lev.a3": "A03 - За Рамки",
+    "lev.a4": "A04 - За Стены",
+    "lev.a5": "A05 - Золотой Ключик",
+    "lev.a6": "A06 - Ключ За Рамки",
+    "lev.a7": "A07 - Ключ За Рамки 2",
+    "lev.a8": "A08 - Двойная Проблема",
+    "lev.a9": "A09 - Замколомка",
+    "lev.a10": "A10 - Дверь",
+    "lev.a11": "A11 - Закрыто",
+    "lev.a12": "A12 - Туда И Обратно",
+
+    "lev.b1": "B01 - Потемнее",
+    "lev.b2": "B02 - Три Ключа - Три Замка",
+    "lev.b3": "B03 - Замкнутое Пространство",
+    "lev.b4": "B04 - Неизвестный Портал",
+    "lev.b5": "B05 - Скачки",
+    "lev.b6": "B06 - Обрывки",
+    "lev.b7": "B07 - Локдаун",
+    "lev.b8": "B08 - Двухфакторная Аунтефикация",
+    "lev.b9": "B09 - Острые Ступеньки",
+    "lev.b10": "B10 - Смертельные Шаги",
+    "lev.b11": "B11 - Перерыв",
+    "lev.b12": "B12 - Трава",
+
+    "lev.c1": "C01 - Улица",
+    "lev.c2": "C02 - Главное Не Упасть",
+    "lev.c3": "C03 - Парк",
+    "lev.c4": "C04 - Твердая Земля",
+    "lev.c5": "C05 - Еще Один Замок",
+    "lev.c6": "C06 - Еще Один Ключ",
+    "lev.c7": "C07 - Островки",
+    "lev.c8": "C08 - Ступеньки",
+
+
+    "useless_info4": "Localization for misc stuff",
+
+
+    "endlev.txt": "КОНЕЦ",
+
+    "lev.b6.fake": "B06 - Обрывки",
+    "lev.c0": "Дерево",
+
+    "pause.head": "ПАУЗА",
+    "pause.res": "Рестарт (R)",
+    "pause.cont": "Продолжить (U)",
+    "pause.ex": "Обратно (ESC)",
+
+    "ox.met": "Воздух",
+    "ox.bar.anim.full": "Анимация 1",
+    "menu.oldest.hint": "подожди немного прежде чем начать \n(смотри на человека)"
+
+}
